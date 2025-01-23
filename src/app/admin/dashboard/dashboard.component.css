@@ -1,5 +1,6 @@
 /* Global Styles */
 body {
+    flex-basis: 100%
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
@@ -111,12 +112,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #327BF0;
+    background-color: #D13F18;
 }
 
 /* Main Content */
 .main-content {
     flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
@@ -206,7 +209,7 @@ nav ul li a:hover {
 }
 
 .reminder-table th {
-    background-color: #327BF0;
+    background-color: #D13F18;
     color: white;
 }
 
